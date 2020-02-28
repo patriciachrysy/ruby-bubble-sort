@@ -38,11 +38,11 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 - add code lines to bubble_sort.rb file
-   * `print bubble_sort([4, 3, 78, 2, 0, 2])` (sort in ascending order)
-   * `print bubble_sort(["hi","hello","hey"])` (sort in alphabetic order)
-   * `print bubble_sort_by([4, 3, 78, 2, 0, 2]) { |first, second| first <=> second }` (sort in ascending order)
-   * `print bubble_sort_by(["hi","hello","hey"]) { |first, second| first <=> second }` (sort in alphabetic order)
-   * `print bubble_sort_by(["hi","hello","hey"]) { |first, second| first.length - second.length }`(sort in ascending string length order)
+   * `p bubble_sort([4, 3, 78, 2, 0, 2])` (sort in ascending order)
+   * `p bubble_sort(["hi","hello","hey"])` (sort in alphabetic order)
+   * `p bubble_sort_by([4, 3, 78, 2, 0, 2]) { |first, second| first <=> second }` (sort in ascending order)
+   * `p bubble_sort_by(["hi","hello","hey"]) { |first, second| first <=> second }` (sort in alphabetic order)
+   * `p bubble_sort_by(["hi","hello","hey"]) { |first, second| first.length - second.length }`(sort in ascending string length order)
 - run the file using "ruby filename" command
 
 
