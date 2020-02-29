@@ -1,19 +1,16 @@
-# Project Name
+# Advance building blocks in Ruby
 
-> Project Title.
+> Bubble Sorting
 
-![screenshot](./app_screenshot.png)
-
-Project description.
+Bubble sorting algorithms in Ruby. The solution is given with three methods:
+- double loop (bubble_sort.rb)
+- recursion (bubble_sort_plus.rb)
+- usage of ruby redo function (bubble_sort_redo.rb)
 
 ## Built With
 
-- HTML5 and CSS3
-- VSCode, Linters, Stylelint, Validator.w3
-
-## Live Demo
-
-[Live Demo Link]()
+- Ruby
+- VSCode, Linters, Rubocop
 
 
 ## Getting Started
@@ -26,47 +23,45 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Get your browsers up to date
+- Get ruby latest version installed
 
 ### Setup
 
 - Clone the repository on your local machine
-- cd into the folder, find the index.html file and open it
+- cd into the folder, find the ibubble_sort.rb file an open it in code editor
 
 ### Install
 
 - Install VSCode or any code editor you like
-- Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev 
+- Install Ruby(most recent version)
+- Run this command on your terminal in order to install rubocop: gem install rubocop 
 
 ### Usage
 
 ### Run tests
 
-- Test the css by typing the command: npx stylelint .
-- Go to http://validator.w3.org/ , upload the index.html file to test it.
-
-### Deployment
-
-- Get an online web hosting
-- Upload all the files in the htdocs folder of your domain
-- Access your domain name in browser
-
+- add code lines to bubble_sort.rb file
+   * `p bubble_sort([4, 3, 78, 2, 0, 2])` (sort in ascending order)
+   * `p bubble_sort(["hi","hello","hey"])` (sort in alphabetic order)
+   * `p bubble_sort_by([4, 3, 78, 2, 0, 2]) { |first, second| first <=> second }` (sort in ascending order)
+   * `p bubble_sort_by(["hi","hello","hey"]) { |first, second| first <=> second }` (sort in alphabetic order)
+   * `p bubble_sort_by(["hi","hello","hey"]) { |first, second| first.length - second.length }`(sort in ascending string length order)
+- run the file using "ruby filename" command
 
 
 ## Authors
 
-👤 Manezeu Patricia Chrystelle
+👤 **Manezeu Patricia Chrystelle**
 
 - Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
+- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
 
-👤 **Author2**
+👤 **Theophile Kango**
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
 
 ## 🤝 Contributing
 
