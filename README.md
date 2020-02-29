@@ -2,7 +2,10 @@
 
 > Bubble Sorting
 
-Bubble sorting algorithm in Ruby.
+Bubble sorting algorithms in Ruby. The solution is given with three methods:
+- double loop (bubble_sort.rb)
+- recursion (bubble_sort_plus.rb)
+- usage of ruby redo function (bubble_sort_redo.rb)
 
 ## Built With
 
