@@ -11,7 +11,7 @@ def bubble_sort(arr)
     i = 1 and test = false and redo if i == arr.length && test == true
     break if i == arr.length && test == false
   end
-  i
+  arr
 end
 
 def bubble_sort_by(arr)
